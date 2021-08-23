@@ -3,10 +3,10 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 
 #====================================#
-# 系统要求: CentOS 6,7				 #
-# 描述: 一键安装CSGO服务器				 #
-# 作者: Suger						 #
-# 联系方式: 211993431@qq.com    #
+# 系统要求: CentOS 6,7		  #
+# 描述: 一键安装CSGO服务器	     #
+# 作者: Suger			   #
+# 联系方式: 211993431@qq.com         #
 #====================================#
 
 clear
