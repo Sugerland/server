@@ -123,7 +123,7 @@ function updateCSGO() {
 function setupCSGO() {
 	echo -e "正在下载并配置server.cfg文件......"
 	cd "../${csgoFolder}/csgo/cfg"
-	wget --no-check-certificate https://github.com/Sugerland/server.git
+	wget --no-check-certificate https://github.com/Sugerland/server/server.cfg
 	# 修改游戏hostname、rcon_paswword和sv_password
 	read -p "请输入CSGO服务器名称(默认为Counter-Strike:Global Offensive): " hostname
 	[ -z "${hostname}" ] && hostname='Counter-Strike:Global Offensive'
